@@ -29,7 +29,7 @@ class _InicioState extends State<Inicio> {
           title: Text("Ricardo App"),
         ),
         body: Center(
-          child: Text("Mi primera vez"),
+          child: Text("Mi primera app"),
         ));
   }
 }
