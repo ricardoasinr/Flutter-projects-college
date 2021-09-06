@@ -24,15 +24,6 @@ class ApiService {
     throw Exception("Error al llamar al API");
   }
 
-  getData(
-      List<Info> data,
-      TextEditingController name,
-      TextEditingController desc,
-      TextEditingController link,
-      TextEditingController cat) {
-    name.text = data.first.api.toString();
-    desc.text = data.first.description.toString();
-    link.text = data.first.link.toString();
-    cat.text = data.first.categoria.toString();
-  }
+ 
+  
 }
